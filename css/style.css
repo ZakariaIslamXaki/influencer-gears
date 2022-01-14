@@ -29,3 +29,26 @@ ul {
   flex-direction: row;
   list-style: none;
 }
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-text {
+  width: 582px;
+  height: 270px;
+}
+.banner-image {
+  width: 475px;
+  height: 475px;
+}
+.para {
+  text-align: justify;
+}
+.link-button {
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 41px;
+}
