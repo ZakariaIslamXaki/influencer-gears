@@ -70,6 +70,21 @@ main {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+.bonus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.bonus-text {
+  width: 610px;
+  height: 224px;
+}
+.bonus-image {
+  width: 404px;
+  height: 270px;
+  padding-right: 96px;
+}
 footer {
   text-align: center;
   color: white;
