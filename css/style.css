@@ -69,3 +69,25 @@ main {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+footer {
+  text-align: center;
+  color: white;
+  background-color: #0a0826;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-title {
+  font-size: 24px;
+}
+.footer-text {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+footer a {
+  text-decoration: none;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+}
