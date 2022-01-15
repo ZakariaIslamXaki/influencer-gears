@@ -311,19 +311,23 @@ footer a {
 }
 
 @media only screen and (max-width: 688px) {
-  nav {
+  .nav-items {
     display: none;
+  }
+  .title {
+    padding-bottom: 0%;
   }
   .banner {
     grid-template-columns: repeat(1, 1fr);
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
   .banner-text {
     margin-bottom: 100px;
   }
   .banner-image {
-    margin-top: 100px;
+    margin-top: 50px;
+    order: 1;
   }
   .logos {
     display: none;
@@ -336,7 +340,7 @@ footer a {
   }
   .bonus {
     grid-template-columns: repeat(1, 1fr);
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
 }
