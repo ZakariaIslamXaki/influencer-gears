@@ -81,9 +81,9 @@ ul {
   border: 4px solid #e02c6d;
   border-radius: 41px;
   cursor: pointer;
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
-.link-button:hover{
+.link-button:hover {
   color: #e02c6d;
   background-color: transparent;
 }
@@ -163,7 +163,8 @@ main {
   color: #787885;
   font-size: 14px;
   font-weight: 700;
-  margin: 0%;
+  margin-top: 10px;
+  line-height: 1.5;
 }
 .products-link {
   text-align: right;
@@ -173,6 +174,12 @@ main {
 .products-link a {
   color: #e02c6d;
   text-decoration: none;
+  transition: 0.3s linear;
+}
+.products-link a:hover {
+  border: 1px solid #e02c6d;
+  padding: 5px 5px;
+  border-radius: 5px;
 }
 .bonus {
   display: flex;
@@ -212,12 +219,12 @@ footer {
 }
 footer a {
   text-decoration: none;
+  color: white;
 }
 .icon {
   width: 32px;
   height: 32px;
 }
-
 
 @keyframes typing {
   0% {
@@ -254,36 +261,37 @@ footer a {
   89% {
     content: "Influencer|";
   }
-  90%{
-    content: 'Influence|';
+  90% {
+    content: "Influence|";
   }
-  91%{
-    content: 'Influenc|';
+  91% {
+    content: "Influenc|";
   }
-  92%{
-    content: 'Influen|';
+  92% {
+    content: "Influen|";
   }
-  93%{
-    content: 'Influe|';
+  93% {
+    content: "Influe|";
   }
-  94%{
-    content: 'Influ|';
+  94% {
+    content: "Influ|";
   }
-  95%{
-    content: 'Infl|';
+  95% {
+    content: "Infl|";
   }
-  96%{
-    content: 'Inf|';
+  96% {
+    content: "Inf|";
   }
-  97%{
-    content: 'In|';
+  97% {
+    content: "In|";
   }
-  98%{
-    content: 'I|';
+  98% {
+    content: "I|";
   }
-  99%{
-    content: '|';
+  99% {
+    content: "|";
   }
-  100%{
-    content: '|';
+  100% {
+    content: "|";
   }
+}
