@@ -70,6 +70,14 @@ main {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.product {
+  width: 329px;
+  height: 476px;
+}
 .bonus {
   display: flex;
   justify-content: space-around;
