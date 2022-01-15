@@ -49,6 +49,19 @@ ul {
   color: #3a3a3a;
   margin-bottom: 16px;
 }
+.animation {
+  font-size: 60px;
+  position: relative;
+  color: transparent;
+}
+.animation::before {
+  content: "Influencer";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #3a3a3a;
+  animation: typing 3s linear infinite;
+}
 .banner-image {
   width: 475px;
   height: 475px;
@@ -197,3 +210,73 @@ footer a {
   width: 32px;
   height: 32px;
 }
+
+
+@keyframes typing {
+  0% {
+    content: "I|";
+  }
+  5% {
+    content: "In|";
+  }
+  10% {
+    content: "Inf|";
+  }
+  15% {
+    content: "Infl|";
+  }
+  20% {
+    content: "Influ|";
+  }
+  25% {
+    content: "Influe|";
+  }
+  30% {
+    content: "Influen|";
+  }
+  35% {
+    content: "Influenc|";
+  }
+  40% {
+    content: "Influence|";
+  }
+  45% {
+    content: "Influencer|";
+  }
+  50%,
+  89% {
+    content: "Influencer|";
+  }
+  90%{
+    content: 'Influence|';
+  }
+  91%{
+    content: 'Influenc|';
+  }
+  92%{
+    content: 'Influen|';
+  }
+  93%{
+    content: 'Influe|';
+  }
+  94%{
+    content: 'Influ|';
+  }
+  95%{
+    content: 'Infl|';
+  }
+  96%{
+    content: 'Inf|';
+  }
+  97%{
+    content: 'In|';
+  }
+  98%{
+    content: 'I|';
+  }
+  99%{
+    content: '|';
+  }
+  100%{
+    content: '|';
+  }
